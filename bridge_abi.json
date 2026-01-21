@@ -1,0 +1,5 @@
+[
+  "function requestBridge(uint256 amount, uint256 nonce, uint256 targetChainId) external",
+  "function releaseTokens(address user, uint256 amount, uint256 nonce, bytes32 txHash) external",
+  "event BridgeRequest(address indexed user, uint256 amount, uint256 nonce, uint256 targetChainId)"
+]
